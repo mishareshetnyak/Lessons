@@ -1,0 +1,19 @@
+.block { 
+    position: absolute;
+    left: 500px;
+    top: 250px; 
+    width: 700px;
+    background: #87CEEB;
+   
+   }
+.title{
+    position: absolute; 
+    left: 550px;
+    top: 100px; 
+    width: 700px; 
+    font-weight: 800;	
+    font-effect
+}
+.body{
+    background:#87CEEB
+}

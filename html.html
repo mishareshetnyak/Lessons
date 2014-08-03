@@ -1,24 +1,38 @@
+<!DOCTYPE html>
 <html>
  <head>  
-    <h1>Count procents</h1> 
+   
     <script type="text/javascript" src="js.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
    </head>
-  <body>
-     <h2>Percent calculator v1.0</h2>
-
+    <body class = "body">
+     <script src="http://code.jquery.com/jquery-latest.js"></script>
+     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+   
+    <div class = "block"> 
+    <div class = "title">
+    </div>
+    <h2>Percent calculator v1.0</h2>
+    
      <p>
       Amount: <input type='text' id="amount" value="1000" />
     </p>
     <p>
-      Percent: <input type='text' id="percent"/>
+      Percent: <input type='text' id="percent" value="10"/>
     </p>
     <p>
-      Incr: <input type="text" id="incr"/>
+      Incr: <input type="text" id="incr" value="2"/>
     </p>
-    <input type="button" onClick="countMoney();" value="Count!" />
+    <div>
+        <buton class="btn btn-large btn-primary" type="button" onClick="countMoney();" value="Count!">Click</buton>
+    </div>
+    <br>
+      <input type="checkbox" name="check" id="yes" value='miha' checked>capitalize?
     <p>
       Result: <span id='result'></span>
     </p>
+    </div> 
   </body> 
  
-</html> 
+</html> 	
